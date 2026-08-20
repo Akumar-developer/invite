@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kab aur Kahan 🕒</title>
+<link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  <div class="hearts-bg"></div>
+  <div class="big-heart-watermark"><div class="heart-shape"></div></div>
+
+  <div class="page">
+    <div class="card">
+      <p class="eyebrow">Yesss, decided</p>
+      <h1 class="headline">Kab aur kahan milegi?</h1>
+      <p class="sub">Bas time aur jagah bata de, baaki main dekh lunga.</p>
+
+      <form class="details-form" id="detailsForm">
+        <div>
+          <label class="field-label" for="locationField">Location</label>
+          <input type="text" id="locationField" placeholder="Jaise... cafe ka naam ya area" required />
+        </div>
+        <div>
+          <label class="field-label" for="timeField">Time</label>
+          <input type="time" id="timeField" required />
+        </div>
+        <button type="submit" class="btn-submit" id="submitBtn">Fix kar de 💌</button>
+        <p class="status-msg" id="statusMsg"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="Script.js"></script>
+</body>
+</html>
