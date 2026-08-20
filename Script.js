@@ -2,7 +2,7 @@
 // CONFIG — replace with your own free Web3Forms access key
 // Get one at https://web3forms.com (30 sec signup, no backend needed)
 // ============================================================
-const WEB3FORMS_ACCESS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY_HERE";
+const WEB3FORMS_ACCESS_KEY = "52b7160a-bafa-4c15-b0b3-154a7c5a28c7";
 
 // ---------- Ambient floating hearts (runs on every page) ----------
 function spawnFloatingHearts(count = 16) {
